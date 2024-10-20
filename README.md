@@ -117,6 +117,9 @@ python  manage.py  runserver
 
 The API's will be accessible at `http://localhost:8000`.
 
+
+Go to  `localhost:8000/api/api_key` and add valid api keys for the system.
+
 With these instructions, users will be guided on how to set up and run the application within a virtual environment.
  
 4.  **Alternatively: Run with Docker:**
@@ -131,6 +134,12 @@ This will build a Docker image and run the application on port 8000.
 
 
 The API will be accessible at `http://localhost:8000`.
+
+Go to  `localhost:8000/api/api_key` and add valid api keys for the system.
+
+5. **Admin Panel**
+- Admin panel is available at `http://localhost:8000/admin` with both the necessary credentials for login being: `admin`
+- Alternatively new admin users can be created using the command `python manage.py createsuperuser`
 
 ## Learnings
 - Task Scheduling and Intervals
